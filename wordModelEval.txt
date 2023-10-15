@@ -1,0 +1,87 @@
+Model Summary 
+
+_________________________________________________________________
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      (None, 1, 10)             230       
+_________________________________________________________________
+lstm_1 (LSTM)                (None, 50)                12200     
+_________________________________________________________________
+dense_1 (Dense)              (None, 23)                1173      
+=================================================================
+Total params: 13,603
+Trainable params: 13,603
+Non-trainable params: 0
+________________________________________________________________
+
+
+
+Name of the poem 
+Hey diddle diddle
+
+Epoch Results 
+ Model 1 epochs
+
+Epoch 495/500
+1/1 - 0s - loss: 0.5601 - accuracy: 0.7586
+Epoch 496/500
+1/1 - 0s - loss: 0.5598 - accuracy: 0.7586
+Epoch 497/500
+1/1 - 0s - loss: 0.5595 - accuracy: 0.7586
+Epoch 498/500
+1/1 - 0s - loss: 0.5592 - accuracy: 0.7586
+Epoch 499/500
+1/1 - 0s - loss: 0.5589 - accuracy: 0.7586
+Epoch 500/500
+1/1 - 0s - loss: 0.5586 - accuracy: 0.7586
+
+
+ Model 2 epohs
+
+Epoch 495/500
+1/1 - 0s - loss: 0.1649 - accuracy: 0.9200
+Epoch 496/500
+1/1 - 0s - loss: 0.1647 - accuracy: 0.9200
+Epoch 497/500
+1/1 - 0s - loss: 0.1645 - accuracy: 0.9200
+Epoch 498/500
+1/1 - 0s - loss: 0.1643 - accuracy: 0.9200
+Epoch 499/500
+1/1 - 0s - loss: 0.1641 - accuracy: 0.9200
+Epoch 500/500
+1/1 - 0s - loss: 0.1639 - accuracy: 0.9200
+
+Model 3 epochs 
+
+Epoch 495/500
+1/1 - 0s - loss: 0.0735 - accuracy: 0.9643
+Epoch 496/500
+1/1 - 0s - loss: 0.0733 - accuracy: 0.9643
+Epoch 497/500
+1/1 - 0s - loss: 0.0731 - accuracy: 0.9643
+Epoch 498/500
+1/1 - 0s - loss: 0.0730 - accuracy: 0.9643
+Epoch 499/500
+1/1 - 0s - loss: 0.0728 - accuracy: 0.9643
+Epoch 500/500
+1/1 - 0s - loss: 0.0727 - accuracy: 0.9643
+
+
+Output generated Text 
+
+Model 1
+diddle the cat and the cat and
+
+
+Model 2
+diddle diddle diddle diddle diddle
+cow cat the over the
+
+
+Model 3
+Hey diddle diddle the cat and the
+the cat and the dish
+the cow jumped over the moon the
+the little dog laughed to see such
